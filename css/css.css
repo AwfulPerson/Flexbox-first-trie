@@ -1,0 +1,112 @@
+body{
+    font-family: sans-serif;
+   margin: 0 auto;
+}
+
+.search{
+    display: flex;
+    width: 500px;
+    background-size: 15px ;
+    background-repeat: no-repeat;
+    background-position: 470px;
+    align-self: center;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+}
+.silk{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+.main{
+    background: black
+}
+   
+.logo-png{
+    margin: 0px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    background: white;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(0, 253, 34);
+}
+.conteiner{
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: column;
+}
+.conteiner__main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.png{
+    width: 100px;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: row;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.title{  
+    margin-left: 200px;
+    margin-right: 200px;
+    background: black;
+}
+ .img{
+    width: 170px;
+    justify-content: right;
+}
+.book__description{
+    font-size: 26px;
+    background-color: black;
+    color: white;
+}
+.contdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;    
+}
+ .book{
+    color: white;
+}
+.header{
+    background-color: white;
+}
+.infonumber{
+    font-size: 14px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+.info__contdown{
+    margin: 10px;
+}
+.texture{
+    background: black;
+    margin-left: 200px;
+    margin-right: 200px;
+}
